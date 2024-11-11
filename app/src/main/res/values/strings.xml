@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UAS Yolan</string>
+    <string-array name="kota">
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Palembang</item>
+        <item>Bandar Lampung</item>
+        <item>Bangka Belitung</item>
+    </string-array>
+</resources>

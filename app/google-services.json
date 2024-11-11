@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586966669134",
+    "project_id": "uasyolanda-5e56d",
+    "storage_bucket": "uasyolanda-5e56d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586966669134:android:165a37bb6d2a745d3f301f",
+        "android_client_info": {
+          "package_name": "com.yolanda.uasyolan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586966669134-bj60at7jls55kim9u3b9f240vi6jlcqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yolanda.uasyolan",
+            "certificate_hash": "d746d9180305bb3bd15afae90b2aad6089c678bd"
+          }
+        },
+        {
+          "client_id": "586966669134-48dk9dufnpgt9d95lvp1a32hp9m0taet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxMGRrYddaHsiKDdGC1ZlTe_kkf_axjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586966669134-48dk9dufnpgt9d95lvp1a32hp9m0taet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2AED9F2C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="#D0ED9F2C"
+        android:id="@+id/panel"
+        android:orientation="horizontal"
+        android:weightSum="16"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_weight="2"
+            android:src="@drawable/ic_baseline_navigate_before_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtprice"
+            android:textStyle="bold"
+            android:text="DRESS LIST"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_weight="11"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            >
+
+            <ImageView
+                android:id="@+id/btnCart"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_baseline_shopping_cart_24" />
+
+            <com.nex3z.notificationbadge.NotificationBadge
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/badge"
+                android:layout_marginLeft="10dp"
+                app:nbMaxTextLength="2" />
+
+        </FrameLayout>
+
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_below="@id/panel"
+        android:id="@+id/recycler_dress"/>
+
+
+
+</RelativeLayout>

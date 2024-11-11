@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/primary">
+
+    <TextView
+        android:id="@+id/tv_selamat_datang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="SELAMAT DATANG DI" />
+
+    <TextView
+        android:id="@+id/txtYDress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_selamat_datang"
+        android:text="Y'DRESS"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#DAA424"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/iv_gambar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/human" />
+
+    <TextView
+        android:id="@+id/tv_berbelanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Berbelanja Sesuka Hati"
+        android:layout_below="@id/iv_gambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/tv_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STYLISH SETIAP SAAT"
+        android:layout_below="@id/tv_berbelanja"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="170dp"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/etUsername"
+        android:layout_marginStart="170dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginStart="170dp"/>
+
+</RelativeLayout>
